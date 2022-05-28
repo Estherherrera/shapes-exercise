@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Space+Mono&display=swap');
+body {
+    text-align: center;
+    max-width: 1000px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Inter';
+}
+
+h1 {
+    font-size: 40px;
+}
+
+div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div #triangle {
+    width: 0px;
+    height: 0px;
+    border-bottom: 100px solid yellow;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
+div #square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-left: 80px;
+}
+
+div #circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #5200FF;
+    margin-left: 80px;
+}
+
+div #triangle:hover {
+    border-bottom: 100px solid #5200FF;
+    position: relative;
+    bottom: 40px;
+}
+
+div #square:hover {
+    background-color: yellow;
+    position: relative;
+    bottom: 40px;
+}
+
+div #circle:hover {
+    background-color: red;
+    position: relative;
+    bottom: 40px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    background-color: #C4C4C4;
+}
